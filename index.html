@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="white">
+         <!--Camera-->
+         <a-entity position="0 0 4">
+            <a-camera></a-camera>
+        </a-entity>
+
+        <!--Cielo-->
+        <a-sky src="https://th.bing.com/th/id/OIP.Uf59BakrUoeKOZxGia9VFgHaFj?pid=ImgDet&w=1200&h=900&rs=1">
+        </a-sky>
+
+        <a-cylinder position = "-0.2 1 -4" radius = "0.5" height = "2" color = "blue"></a-cylinder>
+        
+        
+        <a-cylinder position = "-3 0.75 -4" radius = "0.2" height = "2" color = "blue"></a-cylinder>
+        <a-cylinder position = "3 0.75 -4" radius = "0.2" height = "2" color = "blue"></a-cylinder>
+
+        <a-box position = "-0.2 2 -4" width = "2" height = "0.5" color="cyan"></a-box>
+
+        <a-box position = "-3 1.7 -4" width = "1" height = "0.1" color="cyan"></a-box>
+        <a-box position = "3 1.7 -4" width = "1" height = "0.1" color="cyan"></a-box>
+       
+
+        <a-plane position = "-0.1 0.0 -5" rotation = "-90 0 0" width = "15" height = "5" color = "brown"></a-plane>
+        <a-plane position = "-0.1 2 -5" rotation = "0 0 0" width = "15" height = "5" color = "red"></a-plane>
+        <a-plane position = "-0.2 1 -4" rotation = "90 0 0" width = "15" height = "5" color = "green"></a-plane>
+
+        <a-plane position = "-3 1 -4" rotation = "90 0 0" width = "15" height = "5" color = "green"></a-plane>
+        <a-plane position = "3 1 -4" rotation = "90 0 0" width = "15" height = "5" color = "green"></a-plane>
+
+
+
+
+
+
+</a-scene>
+</body>
+
+</html>
